@@ -29,6 +29,7 @@ const displayMenus = menuItems => {
     const menuContainer = document.getElementById("menu-container");
     const errorContainer = document.getElementById("error-container");
     errorContainer.style.display = "none";
+    document.getElementById("menu-item-container").style.display = "none";
     menuItems.forEach( menu => {
         const menuDiv = document.createElement('div');
         menuDiv.className = "col-md-3 my-2";
